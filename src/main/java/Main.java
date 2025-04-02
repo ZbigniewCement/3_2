@@ -3,7 +3,8 @@ public class Main {
                 
     for (int z = 0; z < 3; z++) {
         int gwiazdki = 7;
-        for (int i = 0; i < 4; i++) {  
+        int y = (gwiazdki+1)/2;
+        for (int i = 0; i < y; i++) {  
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
